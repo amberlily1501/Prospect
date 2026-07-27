@@ -1,0 +1,22 @@
+[
+    {
+        "company": "Rapide Technologies Lahore",
+        "expected": "Rapide Technologies"
+    },
+    {
+        "company": "Microsoft",
+        "expected": "Microsoft"
+    },
+    {
+        "company": "Google",
+        "expected": "Google"
+    },
+    {
+        "company": "OpenAI",
+        "expected": "OpenAI"
+    },
+    {
+        "company": "DefinitelyFakeCompany123",
+        "expected": null
+    }
+]

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Prospect
 
 Prospect is an AI-powered backend application designed to research and enrich potential business leads using publicly available web information.
@@ -25,3 +26,42 @@ research/
 ```
 
 Prepared as part of the Rapide Technologies AI Internship.
+=======
+Prospect
+
+AI-powered lead research agent.
+
+Features
+
+- Search companies
+- Fetch webpages
+- Clean webpages
+- Research with Gemini
+- Verify information
+- Calculate ICP
+- Generate outreach email
+- FastAPI API
+
+Project Structure
+
+app/
+    agents/
+    services/
+    tools/
+    api/
+    core/
+
+How to run
+
+pip install -r requirements.txt
+
+uvicorn app.main:app --reload
+
+API
+
+POST /research
+
+{
+    "company":"Microsoft"
+}
+>>>>>>> bab7027 (Complete Prospect AI Lead Research Agent)

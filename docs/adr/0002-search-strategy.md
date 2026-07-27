@@ -39,6 +39,8 @@ The selected search strategy should:
 
 # 4. Options Considered
 
+The shortlisted options were selected because they satisfy the project's core requirements of supporting structured outputs, tool use, and production-ready APIs (for LLMs), or free/self-hosted search with good coverage (for search strategies). Other providers and services were excluded because they either did not meet the project's requirements, were outside the project scope, or introduced unnecessary cost or complexity.
+
 ## Option A — DuckDuckGo Search
 
 DuckDuckGo was considered because it provides free web search without requiring a paid subscription. It is simple to use and can retrieve publicly available information from a wide range of websites.
